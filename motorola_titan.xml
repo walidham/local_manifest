@@ -2,7 +2,7 @@
 <manifest>
 	<remote name="wh"
             fetch="https://github.com/walidham"
-            revision="cm-14.1" />
+            revision="halium-7.1" />
 
 	<project path="device/motorola/titan" name="android_device_motorola_titan" remote="wh" revision="halium-7.1" />
 	<project path="device/motorola/msm822-common" name="android_device_motorola_msm8226-common" remote="wh" revision="halium-7.1" />
