@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="wh"
+            fetch="https://github.com/walidham"
+            revision="master" />
+
+	<project path="device/motorola/titan" name="ubuntu_touch_device_titan" remote="wh" />
+
+	<project path="kernel/motorola/msm8226" name="ubuntu_touch_msm8226_kernel" remote="wh" />
+
+	<project path="device/motorola/qcom/common" name="android_device_qcom_common" remote="cm" revision="cm-12.1" />
+
+	<project path="device/motorola/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="cm" revision="cm-12.1" />
+
+	<project path="vendor/motorola" name="proprietary_vendor_motorola" remote="them" revision="cm-12.1" />
+
+</manifest>
