@@ -4,9 +4,11 @@
             fetch="https://github.com/walidham"
             revision="master" />
 
-	<project path="device/motorola/titan" name="ubuntu_touch_device_titan" remote="wh" />
+	<project path="device/motorola/titan" name="android_device_motorola_titan" remote="wh" revision="halium-5.1" />
+	
+        <project path="device/motorola/msm8226-common" name="android_device_motorola_msm8226-common" remote="wh" revision="halium-5.1" />
 
-	<project path="kernel/motorola/msm8226" name="ubuntu_touch_msm8226_kernel" remote="wh" />
+	<project path="kernel/motorola/msm8226" name="android_kernel_motorola_msm8226" revision="halium-5.1-stable" remote="wh" />
 
 	<project path="device/motorola/qcom/common" name="android_device_qcom_common" remote="cm" revision="cm-12.1" />
 
